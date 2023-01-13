@@ -1,4 +1,4 @@
-package main
+package core
 
 const (
 	HEIGHT       = int32(768)
@@ -6,8 +6,8 @@ const (
 )
 
 var (
-	height = HEIGHT
-	width  = (height / 9) * 16
+	Height = HEIGHT
+	Width  = (Height / 9) * 16
 
 	workingDir  string
 

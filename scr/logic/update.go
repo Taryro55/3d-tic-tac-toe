@@ -1,11 +1,11 @@
 package logic
 
 import (
-	"tictactoe-3d/scr"
+	"tictactoe-3d/scr/core"
 	rl "github.com/gen2brain/raylib-go/raylib"
 )
 
 func Update() {
-	main.IsExecuting = !rl.WindowShouldClose()
+	core.IsExecuting = !rl.WindowShouldClose()
 
 }
