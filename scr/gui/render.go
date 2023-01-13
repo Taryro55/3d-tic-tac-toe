@@ -2,7 +2,7 @@
 
 package gui
 
-func render() {
+func Render() {
 
 }
 
