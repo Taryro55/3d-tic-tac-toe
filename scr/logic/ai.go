@@ -1,4 +1,0 @@
-// AI logic
-
-package logic
-

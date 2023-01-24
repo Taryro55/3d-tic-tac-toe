@@ -26,10 +26,20 @@ func quit() {
 }
 
 func main() {
+	core.Board.SetChunksEdge()
+	core.Board.SetChunksColors()
+	core.Board.SetChunksPosition()
+
 	for core.IsExecuting {
 		core.Update()
 		logic.Input()
 		gui.Render()
+
+		// if rl.IsMouseButtonDown(0) {
+		// 	for i := range core.Board.Chunks {
+		// 		fmt.Println(core.Board.Chunks[i].Ray)
+		// 	}
+		// }
 	}
 	quit()
 }
